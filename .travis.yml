@@ -16,7 +16,7 @@ script:
 
 deploy:
   provider: releases
-  api_key: "$GIT_OAUTH_TOKEN_RAHMY2"
+  api_key: "$GIT_OAUTH_TOKEN_RAHMY6"
   file: "$PWD/out/arch/arm/boot/zImage-dtb"
   skip_cleanup: true
   on:
