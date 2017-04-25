@@ -24,6 +24,7 @@ endif
 
 ccflags-y += -I$(srctree)/drivers/misc/mediatek/video/     \
              -I$(srctree)/drivers/misc/mediatek/sync/      \
+	     -I$(srctree)/drivers/misc/mediatek/videox/$(MTK_PLATFORM)    \
              -I$(srctree)/drivers/misc/mediatek/dispsys/$(MTK_PLATFORM)   \
              -I$(srctree)/drivers/misc/mediatek/m4u/$(MTK_PLATFORM)       \
              -I$(srctree)/drivers/misc/mediatek/cmdq/$(MTK_PLATFORM)      \
